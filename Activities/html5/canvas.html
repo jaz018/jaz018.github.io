@@ -16,14 +16,37 @@
         ctx.arc(80,40,10,0,2*Math.PI); //draw smaller cirle (because circle above is bigger)
         ctx.stroke();  //end drawing
 		
+		ctx.beginPath();  //start drawing
+        ctx.arc(70,15,10,0,0.5*Math.PI); //draw smaller cirle (because circle above is bigger)
+        ctx.stroke();  //end drawing
+		
 		ctx.beginPath();
 		ctx.arc(110,40,10,0,2*Math.PI); //draw smaller cirle (because circle above is bigger)
-        ctx.stroke();  //end drawing
+        ctx.fillstyle="black";
+		ctx.fill();
+		ctx.stroke();  //end drawing
+		
+		ctx.beginPath();
+		ctx.arc(92,44,10,0,0.5*Math.PI); //draw smaller cirle (because circle above is bigger)
+        ctx.fillstyle="black";
+		ctx.fill();
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.arc(115,22,10,0,0.5*Math.PI); //draw smaller cirle (because circle above is bigger)
+        ctx.fillstyle="black";
+		ctx.fill();
+		ctx.stroke()
 		
 		ctx.beginPath();
 		ctx.arc(95,60,10,0,1*Math.PI); //draw smaller cirle (because circle above is bigger)
-        ctx.stroke();  //end drawing
+        ctx.fillstyle="black";
+		ctx.fill();
+		ctx.stroke();  //end drawing
 		
+		ctx.beginPath();
+		ctx.arc(95,70,10,0,1*Math.PI);
+		ctx.stroke();
         ctx.closePath();
 	</script>
 </body>
